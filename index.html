@@ -25,13 +25,23 @@
     <a href="#join" class="bg-yellow-400 text-black px-4 py-2 rounded-lg text-sm font-semibold hover:bg-yellow-300">Join Now</a>
   </nav>
 
-  <!-- Hero Section -->
-  <section class="min-h-screen flex items-center justify-center text-center px-6 bg-gradient-to-br from-black via-gray-900 to-black">
-    <div class="max-w-3xl mt-16">
+    <!-- Hero Section -->
+  <section class="relative min-h-screen flex items-center justify-center text-center px-6 bg-black">
+    <!-- Background Image -->
+    <div
+      class="absolute inset-0 bg-cover bg-center"
+      style="background-image: url('hero.png');">
+    </div>
+
+    <!-- Dark Overlay -->
+    <div class="absolute inset-0 bg-black/60"></div>
+
+    <!-- Content -->
+    <div class="relative z-10 max-w-3xl mt-16">
       <h2 class="text-4xl md:text-6xl font-bold mb-6 leading-tight">
         Connecting. Elevating. Empowering.
       </h2>
-      <p class="text-gray-300 mb-8 text-lg">
+      <p class="text-gray-200 mb-8 text-lg">
         Black Success Bridge is a community built to support young Black entrepreneurs
         with tools, mentorship, and opportunities to thrive.
       </p>
